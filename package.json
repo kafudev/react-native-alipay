@@ -1,6 +1,6 @@
 {
   "name": "@kafudev/react-native-alipay",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "支付宝SDK",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",

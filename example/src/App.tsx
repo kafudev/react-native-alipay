@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import Alipay from 'react-native-alipay';
+import Alipay from '@kafudev/react-native-alipay';
 
 export default function App() {
   const [result, setResult] = React.useState<number | undefined>();

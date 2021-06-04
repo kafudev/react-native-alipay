@@ -131,7 +131,9 @@
   },
   "eslintIgnore": [
     "node_modules/",
-    "lib/"
+    "lib/",
+    "example/",
+    "ios/"
   ],
   "prettier": {
     "quoteProps": "consistent",
@@ -153,5 +155,9 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "jsrsasign": "^10.3.0"
   }
 }

@@ -44,6 +44,7 @@ android {
 
 repositories {
     mavenLocal()
+    flatDir { dirs 'libs' }
     maven {
         // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
         url("$rootDir/../node_modules/react-native/android")
@@ -55,4 +56,8 @@ repositories {
 dependencies {
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
+
+    compile (name: 'alipaysdk-15.8.03.210428205839', ext: 'aar')
+    // utdid冲突，如果集成阿里百川，则需要用不含utdid的包
+    compile (name: 'alipaysdk-noutdid-15.8.03.210428205839', ext: 'aar')
 }

@@ -158,6 +158,6 @@
   },
   "dependencies": {
     "buffer": "^6.0.3",
-    "jsrsasign": "^10.3.0"
+    "jsrsasign": "^11.0.0"
   }
 }
